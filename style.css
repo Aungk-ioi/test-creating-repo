@@ -1,0 +1,24 @@
+body{
+	font-family: Arial;
+	background-color: #ff00ff;
+	background : red url('jcy.jpg') no-repeat scroll right;
+}
+h1::after{
+	/*content: url('jcy.jpg');*/
+
+}
+h1{
+	color : red;
+	font-size: 40px;
+	font-family: Times News Roman,Arial;
+	/*property : value ;*/
+}
+p{
+	display: none;
+	background-color: red;
+	padding: 20px;
+	text-align: right;
+}
+div:hover p{
+	display: block;
+}
